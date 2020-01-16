@@ -1,6 +1,6 @@
 FROM openjdk:11-slim
 ARG PLANTUML_VERSION="1.2020.0"
-LABEL maintainer="mps299792458i@gmail.com" \
+LABEL maintainer="mps299792458@gmail.com" \
       version=$PLANTUML_VERSION
 
 WORKDIR /usr/local/share/java
